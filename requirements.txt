@@ -1,9 +1,26 @@
+# --- Foundational ML Engines ---
+torch
+numpy<2.0.0
+
+# --- Core RAG & Embedding Libraries ---
+sentence-transformers
+transformers
+huggingface-hub
+tokenizers
+
+# --- Vector Database & Orchestration ---
+chromadb
 langchain
 langchain-core
 langchain-community
 langchain-text-splitters
+
+# --- Document Processing & Utilities ---
 pypdf
 pymupdf
+tqdm
+ipywidgets
 ipykernel
-faiss-cpu==1.7.4
-chromadb
+
+# --- Compatibility Fix for macOS 12 ---
+onnxruntime<1.17.0
